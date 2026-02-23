@@ -1,4 +1,5 @@
 import google.generativeai as genai
+from google.generativeai.types import HarmCategory, HarmBlockThreshold
 genai.configure(api_key="GEMINI_API_KEY")
 # 모델 설정 (사용자가 지정한 gemini-3 유지)
 
