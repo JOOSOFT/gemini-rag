@@ -15,7 +15,7 @@ model = genai.GenerativeModel('gemini-3-flash-preview', safety_settings=safety_s
 
 prompt = f"""[System Prompt]
 
-        [Message] '{req.content}'"""
+        [Message]"""
 try:
     #response = model.generate_content(prompt)
     text_data = response.text.strip()
