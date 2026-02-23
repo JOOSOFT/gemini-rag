@@ -17,7 +17,7 @@ prompt = f"""[System Prompt]
 
         [Message]"""
 try:
-    #response = model.generate_content(prompt)
+    response = model.generate_content(prompt)
     text_data = response.text.strip()
     print(f"🤖 Gemini 응답: {text_data}") 
 
